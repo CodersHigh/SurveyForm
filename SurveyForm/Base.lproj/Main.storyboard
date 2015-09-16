@@ -16,10 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="beL-r5-gYm">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beL-r5-gYm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RQj-Un-Fcb" userLabel="ContentView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQj-Un-Fcb" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Satisfaction Survey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pn1-9j-UWi" userLabel="SurveyTitle">
@@ -279,6 +279,7 @@
                                     <constraint firstAttribute="bottom" secondItem="RQj-Un-Fcb" secondAttribute="bottom" id="RkE-TU-SCa"/>
                                     <constraint firstItem="RQj-Un-Fcb" firstAttribute="top" secondItem="beL-r5-gYm" secondAttribute="top" id="dBf-QV-cqt"/>
                                     <constraint firstItem="RQj-Un-Fcb" firstAttribute="width" secondItem="beL-r5-gYm" secondAttribute="width" id="hHq-zz-gI5"/>
+                                    <constraint firstItem="RQj-Un-Fcb" firstAttribute="height" secondItem="beL-r5-gYm" secondAttribute="height" priority="250" id="iIT-GE-ncq"/>
                                     <constraint firstItem="RQj-Un-Fcb" firstAttribute="leading" secondItem="beL-r5-gYm" secondAttribute="leading" id="jIf-r5-U2a"/>
                                 </constraints>
                             </scrollView>
