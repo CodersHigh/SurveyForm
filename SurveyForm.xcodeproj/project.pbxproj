@@ -13,6 +13,7 @@
 		2C8429B31BA7F3E000AF6FC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8429B21BA7F3E000AF6FC1 /* Images.xcassets */; };
 		2C8429B61BA7F3E000AF6FC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8429B41BA7F3E000AF6FC1 /* LaunchScreen.xib */; };
 		2C8429C21BA7F3E000AF6FC1 /* SurveyFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8429C11BA7F3E000AF6FC1 /* SurveyFormTests.swift */; };
+		2C8429CC1BA9047400AF6FC1 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8429CB1BA9047400AF6FC1 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2C8429BB1BA7F3E000AF6FC1 /* SurveyFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8429C01BA7F3E000AF6FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C8429C11BA7F3E000AF6FC1 /* SurveyFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFormTests.swift; sourceTree = "<group>"; };
+		2C8429CB1BA9047400AF6FC1 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2C8429AB1BA7F3E000AF6FC1 /* AppDelegate.swift */,
 				2C8429AD1BA7F3E000AF6FC1 /* ViewController.swift */,
+				2C8429CB1BA9047400AF6FC1 /* RoundButton.swift */,
 				2C8429AF1BA7F3E000AF6FC1 /* Main.storyboard */,
 				2C8429B21BA7F3E000AF6FC1 /* Images.xcassets */,
 				2C8429B41BA7F3E000AF6FC1 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8429CC1BA9047400AF6FC1 /* RoundButton.swift in Sources */,
 				2C8429AE1BA7F3E000AF6FC1 /* ViewController.swift in Sources */,
 				2C8429AC1BA7F3E000AF6FC1 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				2C8429C71BA7F3E000AF6FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C8429C81BA7F3E000AF6FC1 /* Build configuration list for PBXNativeTarget "SurveyFormTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				2C8429CA1BA7F3E000AF6FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
