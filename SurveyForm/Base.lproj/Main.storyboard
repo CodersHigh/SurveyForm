@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beL-r5-gYm">
-                                <rect key="frame" x="0.0" y="73.5" width="414" height="1056.5"/>
+                                <rect key="frame" x="0.0" y="74" width="414" height="1057"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQj-Un-Fcb" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="969"/>
@@ -78,13 +78,13 @@
                                                 </segments>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. How helpful is your academic advisor?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOt-JZ-UQX" userLabel="S4Question">
-                                                <rect key="frame" x="8" y="311" width="398" height="20.5"/>
+                                                <rect key="frame" x="8" y="311" width="398" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2eC-jq-lC9" userLabel="S4Answer">
-                                                <rect key="frame" x="19" y="339.5" width="377" height="29"/>
+                                                <rect key="frame" x="19" y="340" width="377" height="29"/>
                                                 <segments>
                                                     <segment title="Extremely"/>
                                                     <segment title="Very"/>
@@ -94,13 +94,13 @@
                                                 </segments>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5. How easy it is to register for courses at this university?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="its-kI-IMS" userLabel="S5Question">
-                                                <rect key="frame" x="8" y="387.5" width="398" height="41"/>
+                                                <rect key="frame" x="8" y="388" width="398" height="41"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Oha-Yw-7BZ" userLabel="S5Answer">
-                                                <rect key="frame" x="19" y="436.5" width="377" height="29"/>
+                                                <rect key="frame" x="19" y="437" width="377" height="29"/>
                                                 <segments>
                                                     <segment title="Extremely"/>
                                                     <segment title="Very"/>
@@ -110,7 +110,7 @@
                                                 </segments>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6. How safe do you feel on campus?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6c-Q3-SCf" userLabel="S6Question">
-                                                <rect key="frame" x="8" y="484.5" width="398" height="20.5"/>
+                                                <rect key="frame" x="8" y="485" width="398" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -287,7 +287,7 @@
                                 </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Satisfaction Survey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afq-P7-Mjp" userLabel="SurveyTitle">
-                                <rect key="frame" x="0.0" y="28" width="414" height="25.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
